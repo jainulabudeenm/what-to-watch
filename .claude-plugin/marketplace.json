@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "what-to-watch",
+  "description": "A recommender that reasons over what you actually watched, not what is popular.",
+  "owner": {
+    "name": "Zain",
+    "url": "https://github.com/jainulabudeenm"
+  },
+  "plugins": [
+    {
+      "name": "what-to-watch",
+      "description": "Picks from your own watch history and taste profile, vets a title before you commit, and tidies a wishlist that has gone feral.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

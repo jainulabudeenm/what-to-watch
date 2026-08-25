@@ -1,0 +1,40 @@
+{
+  "name": "@jainulabudeenm/what-to-watch",
+  "version": "1.0.0",
+  "description": "Install the What to Watch skills for Claude. Recommends films and series from your own watch history and taste profile, not from what is trending.",
+  "keywords": [
+    "claude",
+    "claude-skill",
+    "claude-code",
+    "movies",
+    "tv",
+    "recommendations",
+    "letterboxd",
+    "trakt"
+  ],
+  "author": "Zain Hasan",
+  "license": "MIT",
+  "bin": {
+    "what-to-watch": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/import-history.py",
+    "scripts/pull-must.py",
+    "skills/what-to-watch.skill",
+    "skills/watch-log.skill",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainulabudeenm/what-to-watch.git"
+  },
+  "homepage": "https://github.com/jainulabudeenm/what-to-watch#readme",
+  "bugs": {
+    "url": "https://github.com/jainulabudeenm/what-to-watch/issues"
+  }
+}

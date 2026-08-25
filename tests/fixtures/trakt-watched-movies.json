@@ -1,0 +1,8 @@
+[
+  {"plays": 2, "last_watched_at": "2026-01-04T20:00:00.000Z",
+   "movie": {"title": "Salt Road", "year": 2017,
+             "ids": {"trakt": 55, "slug": "salt-road-2017", "imdb": "tt1111111", "tmdb": 9911}}},
+  {"plays": 1, "last_watched_at": "2026-05-19T18:30:00.000Z",
+   "movie": {"title": "Concrete Garden", "year": 2020,
+             "ids": {"trakt": 77, "slug": "concrete-garden-2020", "imdb": "tt2222222", "tmdb": 8822}}}
+]

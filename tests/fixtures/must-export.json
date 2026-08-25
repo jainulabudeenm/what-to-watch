@@ -1,0 +1,12 @@
+{
+  "meta": {"uri": "someone", "pulled": "2026-08-25"},
+  "items": [
+    {"id": 101, "title": "The Quiet Ledger", "type": "movie", "year": "2019",
+     "status": "watched", "rate": 9, "disliked": false, "runtime": 7080},
+    {"id": 102, "title": "Harbour Lights", "type": "show", "year": "2021",
+     "status": "watching", "rate": null, "disliked": false, "runtime": 2700,
+     "episodes_watched": 4, "episodes_total": 10},
+    {"id": 103, "title": "Paper Boats", "type": "movie", "year": "2023",
+     "status": "want", "rate": null, "disliked": false, "runtime": 6300}
+  ]
+}
