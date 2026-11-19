@@ -1,6 +1,7 @@
 ---
 name: what-to-watch
 description: Recommends films and series from the user's own watch history and taste profile rather than from whatever is trending. Use when they ask what to watch, what to watch tonight, for a movie or series recommendation, whether a specific title is worth it, what is on their wishlist, what they should finish, or to rank and tidy the wishlist.
+compatibility: Asks its narrowing questions with Claude Code's AskUserQuestion tool. Other agents ask the same questions in plain chat.
 ---
 
 # What to Watch
@@ -98,7 +99,8 @@ enough to pick on. Recommending straight off a one liner reads as random and was
 
 Ask **two to four focused questions** first, tailored to what they said: the specific sub genre or
 vibe, the intensity they want tonight, the language lane, the time they have, and wishlist against
-something new. Only then:
+something new. In Claude Code, ask them with the AskUserQuestion tool so they can tap an answer.
+Other agents ask the same questions in plain chat. Only then:
 
 - Pull candidates from the **wishlist** first. Those are titles they already chose once.
 - Enrich the shortlist with genre, premise, and runtime via web search. Filter to mood, time, and

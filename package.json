@@ -1,6 +1,6 @@
 {
   "name": "@jainulabudeenm/what-to-watch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Install the What to Watch skills for Claude. Recommends films and series from your own watch history and taste profile, not from what is trending.",
   "keywords": [
     "claude",

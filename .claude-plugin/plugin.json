@@ -1,6 +1,6 @@
 {
   "name": "what-to-watch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Recommends films and series from your own watch history and taste profile instead of from whatever is trending. Imports from MUST, Letterboxd, or Trakt.",
   "author": {
     "name": "Zain",
